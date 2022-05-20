@@ -4,3 +4,23 @@
     box-sizing: border-box;
     border: 1px solid black;
 }
+
+header {
+    background-color: yellow;
+}
+
+nav {
+    display:  flex;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+}
+
+button {
+    padding: 15px 30px;
+}
+
+#content {
+    width: 80%;
+    margin: 30px auto;
+}
