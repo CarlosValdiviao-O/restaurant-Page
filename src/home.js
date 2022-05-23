@@ -1,9 +1,12 @@
 import { addChildElement } from "./functions";
+import Image from "./krusty-krab.png"
 
 const loadHome = () => {
     content.className = 'home';
     createInfoBox();
-    let img = addChildElement(content, 'div', '.image')
+    let div = addChildElement(content, 'div', '.image-div');
+    let img = addChildElement(div, 'img');
+    img.src = Image;
     home.disabled = true;
 }
 
