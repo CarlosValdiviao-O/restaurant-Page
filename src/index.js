@@ -19,13 +19,13 @@ function createNav() {
 
     const nav = addChildElement(header, 'nav');
     const home = addChildElement(nav, 'button', '#home');
-    home.textContent = 'Home';
+    home.textContent = 'HOME';
 
     const menu = addChildElement(nav, 'button', '#menu');
-    menu.textContent = 'Menu';
+    menu.textContent = 'MENU';
 
     const contact = addChildElement(nav, 'button', '#contact');
-    contact.textContent = 'Contact';
+    contact.textContent = 'CONTACT';
 }
 
 function addEvents() {
